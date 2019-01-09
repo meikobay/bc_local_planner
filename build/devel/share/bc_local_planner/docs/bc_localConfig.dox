@@ -1,7 +1,0 @@
-\subsubsection parameters ROS parameters
-
-Reads and maintains the following parameters on the ROS server
-
-- \b "~Is_running" : \b [bool] Is start running? min: False, default: False, max: True
-- \b "~Is_training" : \b [bool] Is start training? min: False, default: False, max: True
-

@@ -1,8 +1,0 @@
-prefix=/program/sim_ugv_ws/src/sim_ugv_master/4Path_Planning/bc_local_planner/build/devel
-
-Name: bc_local_planner
-Description: Description of bc_local_planner
-Version: 0.0.0
-Cflags: -I/program/sim_ugv_ws/src/sim_ugv_master/4Path_Planning/bc_local_planner/build/devel/include -I/program/sim_ugv_ws/src/sim_ugv_master/4Path_Planning/bc_local_planner/include
-Libs: -L/program/sim_ugv_ws/src/sim_ugv_master/4Path_Planning/bc_local_planner/build/devel/lib -lbc_local_planner
-Requires: dynamic_reconfigure roscpp rospy tf
