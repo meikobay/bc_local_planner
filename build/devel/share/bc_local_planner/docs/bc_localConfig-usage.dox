@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="bc_local_planner" pkg="bc_local_planner" type="bc_local_planner">
+  <param name="Is_running" type="bool" value="False" />
+  <param name="Is_training" type="bool" value="False" />
+</node>
+\endverbatim
+

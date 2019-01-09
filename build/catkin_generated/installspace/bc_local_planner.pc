@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: bc_local_planner
+Description: Description of bc_local_planner
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lbc_local_planner
+Requires: dynamic_reconfigure roscpp rospy tf

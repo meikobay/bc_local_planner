@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+PACKAGE = "bc_local_planner"
+
+from dynamic_reconfigure.parameter_generator_catkin import *
+
+gen = ParameterGenerator()
+ 
+gen.add("Is_running",         bool_t,   0, "Is start running?",                       )
+gen.add("Is_training",        bool_t,   0, "Is start training?",                      )
+
+exit(gen.generate(PACKAGE, 	"bc_local_planner", 			"bc_local"))
